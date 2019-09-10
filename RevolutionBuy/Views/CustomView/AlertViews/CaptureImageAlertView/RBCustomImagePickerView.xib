@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="255" verticalHuggingPriority="255" horizontalCompressionResistancePriority="745" verticalCompressionResistancePriority="745" id="X0N-Qm-A3Z" customClass="RBCustomImagePickerView" customModule="RevolutionBuy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MtP-ff-gHf" customClass="RBAlertBaseView" customModule="RevolutionBuy" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="457" width="375" height="210"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jxq-l9-Qxl">
+                            <rect key="frame" x="16" y="16" width="343" height="108"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIo-W3-6bY">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="54"/>
+                                    <color key="backgroundColor" red="0.1215686275" green="0.34901960780000002" blue="0.61176470589999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                    <state key="normal" title="Upload From Gallery">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickPhotoLibraryAction:" destination="X0N-Qm-A3Z" eventType="touchUpInside" id="glR-Fa-mY9"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sre-AI-RXc">
+                                    <rect key="frame" x="0.0" y="54" width="343" height="1"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="0.5" id="j1O-K1-daU"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eR7-st-JEc">
+                                    <rect key="frame" x="0.0" y="55" width="343" height="53"/>
+                                    <color key="backgroundColor" red="0.1215686275" green="0.34901960780000002" blue="0.61176470589999998" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                    <state key="normal" title="Take Photo">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickCameraAction:" destination="X0N-Qm-A3Z" eventType="touchUpInside" id="JzZ-Xa-gj8"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Sre-AI-RXc" firstAttribute="centerY" secondItem="Jxq-l9-Qxl" secondAttribute="centerY" id="0Hv-cp-2k3"/>
+                                <constraint firstAttribute="trailing" secondItem="GIo-W3-6bY" secondAttribute="trailing" id="975-RW-Sh8"/>
+                                <constraint firstItem="GIo-W3-6bY" firstAttribute="leading" secondItem="Jxq-l9-Qxl" secondAttribute="leading" id="D1O-l2-SGJ"/>
+                                <constraint firstItem="GIo-W3-6bY" firstAttribute="top" secondItem="Jxq-l9-Qxl" secondAttribute="top" id="MFH-QJ-zPm"/>
+                                <constraint firstItem="Sre-AI-RXc" firstAttribute="top" secondItem="GIo-W3-6bY" secondAttribute="bottom" id="Y8I-WN-Q86"/>
+                                <constraint firstItem="eR7-st-JEc" firstAttribute="top" secondItem="Sre-AI-RXc" secondAttribute="bottom" id="f7e-vS-Gw9"/>
+                                <constraint firstItem="Sre-AI-RXc" firstAttribute="leading" secondItem="Jxq-l9-Qxl" secondAttribute="leading" id="hNA-M7-I01"/>
+                                <constraint firstAttribute="trailing" secondItem="eR7-st-JEc" secondAttribute="trailing" id="lAN-H1-q3G"/>
+                                <constraint firstAttribute="trailing" secondItem="Sre-AI-RXc" secondAttribute="trailing" id="mgl-jh-QoW"/>
+                                <constraint firstItem="eR7-st-JEc" firstAttribute="leading" secondItem="Jxq-l9-Qxl" secondAttribute="leading" id="tWh-HW-TkP"/>
+                                <constraint firstAttribute="bottom" secondItem="eR7-st-JEc" secondAttribute="bottom" id="xf7-k6-ifX"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnN-j3-5dG" customClass="RBCustomButton" customModule="RevolutionBuy" customModuleProvider="target">
+                            <rect key="frame" x="16" y="140" width="343" height="54"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.1215686275" green="0.34901960780000002" blue="0.61176470589999998" alpha="1" colorSpace="deviceRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="doesBorderRequired" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="clickCancelAction:" destination="X0N-Qm-A3Z" eventType="touchUpInside" id="SHB-c0-WrJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Jxq-l9-Qxl" secondAttribute="trailing" constant="16" id="0mj-yr-JHp"/>
+                        <constraint firstAttribute="bottom" secondItem="GnN-j3-5dG" secondAttribute="bottom" constant="16" id="44O-g6-tCM"/>
+                        <constraint firstItem="Jxq-l9-Qxl" firstAttribute="top" secondItem="MtP-ff-gHf" secondAttribute="top" constant="16" id="4gJ-eF-Tir"/>
+                        <constraint firstAttribute="trailing" secondItem="GnN-j3-5dG" secondAttribute="trailing" constant="16" id="i1H-6i-ASl"/>
+                        <constraint firstItem="Jxq-l9-Qxl" firstAttribute="leading" secondItem="MtP-ff-gHf" secondAttribute="leading" constant="16" id="lnz-I8-1xd"/>
+                        <constraint firstItem="GnN-j3-5dG" firstAttribute="leading" secondItem="MtP-ff-gHf" secondAttribute="leading" constant="16" id="qi6-LO-LLD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Jxq-l9-Qxl" firstAttribute="height" secondItem="X0N-Qm-A3Z" secondAttribute="height" multiplier="108/667" id="63q-jC-Ihe"/>
+                <constraint firstItem="MtP-ff-gHf" firstAttribute="leading" secondItem="X0N-Qm-A3Z" secondAttribute="leading" id="SNV-8h-kma"/>
+                <constraint firstItem="GnN-j3-5dG" firstAttribute="height" secondItem="X0N-Qm-A3Z" secondAttribute="height" multiplier="54/667" id="aSP-nK-CGt"/>
+                <constraint firstAttribute="trailing" secondItem="MtP-ff-gHf" secondAttribute="trailing" id="dfi-sc-bXu"/>
+                <constraint firstItem="MtP-ff-gHf" firstAttribute="height" secondItem="X0N-Qm-A3Z" secondAttribute="height" multiplier="210/667" id="gQE-91-Rd3"/>
+                <constraint firstAttribute="bottom" secondItem="MtP-ff-gHf" secondAttribute="bottom" id="hnc-GC-oC2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomSpaceConstraintImageView" destination="hnc-GC-oC2" id="pvl-Wq-igQ"/>
+            </connections>
+            <point key="canvasLocation" x="373.5" y="317.5"/>
+        </view>
+    </objects>
+</document>

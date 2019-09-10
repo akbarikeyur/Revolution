@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RevolutionBuy/Controllers/Dashboard/ViewSellerOfferDetail/RBViewSellerOfferDetailViewController.swift"
+            timestampString = "519912395.973432"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "callAPIToCompleteTransactionFromBuyer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBViewSellerOfferDetailViewController.callAPIToCompleteTransactionFromBuyer () -&gt; ()"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Controllers/Dashboard/ViewSellerOfferDetail/RBViewSellerOfferDetailViewController.swift"
+                  timestampString = "519919252.186635"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "509">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBViewSellerOfferDetailViewController.(callAPIToCompleteTransactionFromBuyer () -&gt; ()).(closure #1)"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Controllers/Dashboard/ViewSellerOfferDetail/RBViewSellerOfferDetailViewController.swift"
+                  timestampString = "519919252.189666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "277"
+                  endingLineNumber = "277"
+                  offsetFromSymbolStart = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+            timestampString = "519912464.249883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "completeOnlineTransactionByBuyer(stripeToken:offerProduct:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBProduct.completeOnlineTransactionByBuyer (stripeToken : Swift.String, offerProduct : RevolutionBuy.RBSellerProduct, completion : (Swift.Bool, Swift.String, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+                  timestampString = "519919252.198031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "2592">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBProduct.(completeOnlineTransactionByBuyer (stripeToken : Swift.String, offerProduct : RevolutionBuy.RBSellerProduct, completion : (Swift.Bool, Swift.String, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+                  timestampString = "519919252.20109"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+            timestampString = "519912582.230368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "completeOnlineTransactionByBuyer(stripeToken:offerProduct:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBProduct.(completeOnlineTransactionByBuyer (stripeToken : Swift.String, offerProduct : RevolutionBuy.RBSellerProduct, completion : (Swift.Bool, Swift.String, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+                  timestampString = "519919252.206031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RevolutionBuy.RBProduct.(completeOnlineTransactionByBuyer (stripeToken : Swift.String, offerProduct : RevolutionBuy.RBSellerProduct, completion : (Swift.Bool, Swift.String, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "RevolutionBuy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pankaj/Workspace/ReverseAuction/RevolutionBuy/Models/CategoryItemList/RBProduct+Services.swift"
+                  timestampString = "519919252.207543"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "741">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
